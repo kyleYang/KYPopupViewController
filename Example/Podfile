@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KYPopupViewController_Example' do
+  pod 'KYPopupViewController', :path => '../'
+
+  target 'KYPopupViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
