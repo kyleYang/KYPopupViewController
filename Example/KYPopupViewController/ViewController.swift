@@ -7,18 +7,30 @@
 //
 
 import UIKit
+import KYPopupViewController
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func show(_ sender: Any) {
+        
+        let alert = KYAlertViewController(title: "提示", message: "确定删除")
+        let button = KYPopupButton(title: "删除") {
+
+        }
+        let button2 = KYPopupButton(title: "确定") {
+
+        }
+        alert.addButton(button)
+        alert.addButton(button2)
+        alert.bePresented()
     }
+
 
 }
 

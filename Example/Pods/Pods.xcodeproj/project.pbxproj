@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0180FABF9A9C25D8D6B768DBDB032085 /* Pods-KYPopupViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 296ACE86CD91E7A820F565EF478F4E01 /* Pods-KYPopupViewController_Example-dummy.m */; };
+		172B4C64848FA2811B7B93A79005D224 /* KYPopupUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A32D4EF31399D8DBC9A24CE04210C85 /* KYPopupUtil.swift */; };
+		18F9EEA21F56AB2D00F71F16 /* KYPopupPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F9EEA11F56AB2C00F71F16 /* KYPopupPresentationController.swift */; };
+		18F9EEA41F56B13700F71F16 /* KYPopupOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F9EEA31F56B13700F71F16 /* KYPopupOverlayView.swift */; };
+		196897E2C00A72E50DA9535E1523CB3E /* KYPopupTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D8C5E69E5A3197767461D45A1405D1 /* KYPopupTransitionAnimator.swift */; };
+		2DB94FF5601C76321F56DB62E90B4D01 /* Pods-KYPopupViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2BCE869BB791FFE81D4740773F38E8 /* Pods-KYPopupViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4739E4DDA756FE646A7CF29AAA7F6BD1 /* KYPopupButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772DACB0ABF2372562CE5811D2619D23 /* KYPopupButton.swift */; };
+		4CDC4DEF57B1A7947B2BB9063039FF1C /* KYBaseContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26177D8A14A2D40FB69E489948B14A7 /* KYBaseContentView.swift */; };
+		5809E6615574882BDDF31C9A9F9A79E7 /* KYPopupContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE6F9C2778469481E622D19FAA35AE /* KYPopupContainerView.swift */; };
+		5BCE0B697AE37DBE4B825AC43390DD09 /* KYPopupViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9032A638EC4F945060825CC17D1117DB /* KYPopupViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C08C8F06727991200D5F6610C5CF32A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6D9A20100CEEA35FD5A66926AC077B9A /* KYAlertContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15353F253EA315E0DC0B40D9FC0618 /* KYAlertContentView.swift */; };
+		778B9FCD445FB21843332D28EF178047 /* Pods-KYPopupViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D1560A2CAEBAFA98DA0C47197E8851 /* Pods-KYPopupViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77C44F9C3CD4E4AA56C88F7B57847E75 /* UIWindow+KYPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E29EC5181DFEC5B3A7E8C49FCF58A67 /* UIWindow+KYPopup.swift */; };
+		8260332736DDD95C7F08A59E2D8AFFCE /* UIView+KYPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FEDF12385A8E745C31B95A5B4B38BD /* UIView+KYPopup.swift */; };
+		BED034B21DBB2320BDE417FB4C5CF10C /* KYPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C899F38549EAACA3794A78E9B4D58A1 /* KYPopupViewController.swift */; };
+		D76FBD4338DA81A8E730FF4725D1A86B /* KYPopupViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8278F97A2F53EDDAE5D8537E8158F040 /* KYPopupViewController-dummy.m */; };
+		D946FD004E2594D04F376A578E3CB6D2 /* KYPopupTransitionAnimators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B7ABEA737BAA0BABB33CC511AC89AC /* KYPopupTransitionAnimators.swift */; };
+		ECA8645C2E023AB3A086C38DD4E46049 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EFEA2CB0EF686785EEE1D0A0E4B4B1DD /* KYPopupInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A78B88A68FDA5F28267679FD0926EDC /* KYPopupInteractiveTransition.swift */; };
+		F6184895DE20F0DA990FB217C0D05E95 /* Pods-KYPopupViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B80077FE1DD70D182C8A8671E6F53B /* Pods-KYPopupViewController_Tests-dummy.m */; };
+		FA7182F3BF6F60D0E2E9626CFDE6A755 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FC6576120B907D68CCA04201F399587F /* KYPopupPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE1A2A40656E6FEE84274EC81A530E7 /* KYPopupPresentationManager.swift */; };
+		FDA1EF63BBD8B75EC906313DB38CCC6B /* KYAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75DA1702E48129B4C1CF330E3480D59 /* KYAlertViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		563D04FEF661550C970BFB7DB7AA56AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A4F006AD5BABFD96037849AADEF45FC;
+			remoteInfo = KYPopupViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		157D1DEA2687CFE77544A4ED0B8CB6B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F9EEA11F56AB2C00F71F16 /* KYPopupPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KYPopupPresentationController.swift; path = KYPopupViewController/Classes/KYPopupPresentationController.swift; sourceTree = "<group>"; };
+		18F9EEA31F56B13700F71F16 /* KYPopupOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KYPopupOverlayView.swift; path = KYPopupViewController/Classes/KYPopupOverlayView.swift; sourceTree = "<group>"; };
+		1D5F928507184436C3123CA3BBB305AC /* Pods-KYPopupViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYPopupViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1E0A4AE90E4E80F4DDE6826317C40882 /* Pods-KYPopupViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KYPopupViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1F4905FBB93FBA077DBC730E6E0570A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2239E37C6C7A201DDDB7608C478C3DB1 /* Pods-KYPopupViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KYPopupViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		24284A996FE46F6BC7CC5BCA5836C9C9 /* Pods-KYPopupViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYPopupViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		296ACE86CD91E7A820F565EF478F4E01 /* Pods-KYPopupViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KYPopupViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		2DF38D6B27588DC0BEBE0AC6C0F84532 /* Pods-KYPopupViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYPopupViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E438167F7FF453A2C03C6A721F8404E /* Pods_KYPopupViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KYPopupViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B7ABEA737BAA0BABB33CC511AC89AC /* KYPopupTransitionAnimators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYPopupTransitionAnimators.swift; path = KYPopupViewController/Classes/KYPopupTransitionAnimators.swift; sourceTree = "<group>"; };
+		3A15353F253EA315E0DC0B40D9FC0618 /* KYAlertContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYAlertContentView.swift; path = KYPopupViewController/Classes/KYAlertContentView.swift; sourceTree = "<group>"; };
+		44FEDF12385A8E745C31B95A5B4B38BD /* UIView+KYPopup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+KYPopup.swift"; path = "KYPopupViewController/Classes/UIView+KYPopup.swift"; sourceTree = "<group>"; };
+		47DCDFB84BCCF4C72DAE82848655B8A4 /* Pods-KYPopupViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYPopupViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		48326DB28028019CB3E1EBBA04CFFE97 /* KYPopupViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KYPopupViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD27C6C609DD34A6E81EC1B14C3ADBF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FA3BBB9EF944F84970C24353CE00D6E /* KYPopupViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYPopupViewController.xcconfig; sourceTree = "<group>"; };
+		51D86C60F19DFADC0C83B8C0DDAD9FB7 /* Pods-KYPopupViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KYPopupViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		54B80077FE1DD70D182C8A8671E6F53B /* Pods-KYPopupViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KYPopupViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		56119EBE20D65B9E628B47BDBE972D8B /* Pods-KYPopupViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYPopupViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		59D1560A2CAEBAFA98DA0C47197E8851 /* Pods-KYPopupViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KYPopupViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5AE1A2A40656E6FEE84274EC81A530E7 /* KYPopupPresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYPopupPresentationManager.swift; path = KYPopupViewController/Classes/KYPopupPresentationManager.swift; sourceTree = "<group>"; };
+		5C19C157958F70282BD53BE004E6F14F /* Pods-KYPopupViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KYPopupViewController_Example.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A78B88A68FDA5F28267679FD0926EDC /* KYPopupInteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYPopupInteractiveTransition.swift; path = KYPopupViewController/Classes/KYPopupInteractiveTransition.swift; sourceTree = "<group>"; };
+		772DACB0ABF2372562CE5811D2619D23 /* KYPopupButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYPopupButton.swift; path = KYPopupViewController/Classes/KYPopupButton.swift; sourceTree = "<group>"; };
+		7A32D4EF31399D8DBC9A24CE04210C85 /* KYPopupUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYPopupUtil.swift; path = KYPopupViewController/Classes/KYPopupUtil.swift; sourceTree = "<group>"; };
+		7C2BCE869BB791FFE81D4740773F38E8 /* Pods-KYPopupViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KYPopupViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		7FA782CB7B8CC2432E384A43204187D5 /* KYPopupViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KYPopupViewController.modulemap; sourceTree = "<group>"; };
+		8278F97A2F53EDDAE5D8537E8158F040 /* KYPopupViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KYPopupViewController-dummy.m"; sourceTree = "<group>"; };
+		8C899F38549EAACA3794A78E9B4D58A1 /* KYPopupViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYPopupViewController.swift; path = KYPopupViewController/Classes/KYPopupViewController.swift; sourceTree = "<group>"; };
+		8E29EC5181DFEC5B3A7E8C49FCF58A67 /* UIWindow+KYPopup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWindow+KYPopup.swift"; path = "KYPopupViewController/Classes/UIWindow+KYPopup.swift"; sourceTree = "<group>"; };
+		9032A638EC4F945060825CC17D1117DB /* KYPopupViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYPopupViewController-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A747887201F06E1F26C6215FFCBFF0FD /* Pods-KYPopupViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KYPopupViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		AF9F2007A0D3B7051C2115AA692D6163 /* Pods_KYPopupViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KYPopupViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26177D8A14A2D40FB69E489948B14A7 /* KYBaseContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYBaseContentView.swift; path = KYPopupViewController/Classes/KYBaseContentView.swift; sourceTree = "<group>"; };
+		B75DA1702E48129B4C1CF330E3480D59 /* KYAlertViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYAlertViewController.swift; path = KYPopupViewController/Classes/KYAlertViewController.swift; sourceTree = "<group>"; };
+		C02FF18097CA0AFB2113E14C94FF6ACD /* Pods-KYPopupViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KYPopupViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0D8C5E69E5A3197767461D45A1405D1 /* KYPopupTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYPopupTransitionAnimator.swift; path = KYPopupViewController/Classes/KYPopupTransitionAnimator.swift; sourceTree = "<group>"; };
+		D3908E804B4D5B3C29DB903E6BFE6F53 /* Pods-KYPopupViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KYPopupViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		D3C87D89147A7B556C62D452E589A499 /* Pods-KYPopupViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYPopupViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D4D03575003A36B96342DC84D813C9F4 /* KYPopupViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYPopupViewController-prefix.pch"; sourceTree = "<group>"; };
+		DBBE6F9C2778469481E622D19FAA35AE /* KYPopupContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYPopupContainerView.swift; path = KYPopupViewController/Classes/KYPopupContainerView.swift; sourceTree = "<group>"; };
+		F9E7EA5A5E19CCEC7883E6C96458B0D7 /* Pods-KYPopupViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KYPopupViewController_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BA270230B6D0A9E602EFB60D14F1C5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C08C8F06727991200D5F6610C5CF32A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19FA9B982F083B2AA905F8ADB4A6460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA8645C2E023AB3A086C38DD4E46049 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E83BFB67CFF020B16EAF1E296E6186E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7182F3BF6F60D0E2E9626CFDE6A755 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056607AF38C64E9071B22DF0CE6D8946 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D3EA89977F7694D27C0A52ADD7435E8 /* KYPopupViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0D3EA89977F7694D27C0A52ADD7435E8 /* KYPopupViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3A15353F253EA315E0DC0B40D9FC0618 /* KYAlertContentView.swift */,
+				B75DA1702E48129B4C1CF330E3480D59 /* KYAlertViewController.swift */,
+				B26177D8A14A2D40FB69E489948B14A7 /* KYBaseContentView.swift */,
+				772DACB0ABF2372562CE5811D2619D23 /* KYPopupButton.swift */,
+				DBBE6F9C2778469481E622D19FAA35AE /* KYPopupContainerView.swift */,
+				6A78B88A68FDA5F28267679FD0926EDC /* KYPopupInteractiveTransition.swift */,
+				5AE1A2A40656E6FEE84274EC81A530E7 /* KYPopupPresentationManager.swift */,
+				D0D8C5E69E5A3197767461D45A1405D1 /* KYPopupTransitionAnimator.swift */,
+				38B7ABEA737BAA0BABB33CC511AC89AC /* KYPopupTransitionAnimators.swift */,
+				7A32D4EF31399D8DBC9A24CE04210C85 /* KYPopupUtil.swift */,
+				8C899F38549EAACA3794A78E9B4D58A1 /* KYPopupViewController.swift */,
+				44FEDF12385A8E745C31B95A5B4B38BD /* UIView+KYPopup.swift */,
+				8E29EC5181DFEC5B3A7E8C49FCF58A67 /* UIWindow+KYPopup.swift */,
+				E737BF7B721405267CCBD3654A6DA8DB /* Support Files */,
+				18F9EEA11F56AB2C00F71F16 /* KYPopupPresentationController.swift */,
+				18F9EEA31F56B13700F71F16 /* KYPopupOverlayView.swift */,
+			);
+			name = KYPopupViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		289447352D943DE197F2BE0BBD33DDEE /* Pods-KYPopupViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				157D1DEA2687CFE77544A4ED0B8CB6B8 /* Info.plist */,
+				F9E7EA5A5E19CCEC7883E6C96458B0D7 /* Pods-KYPopupViewController_Tests.modulemap */,
+				51D86C60F19DFADC0C83B8C0DDAD9FB7 /* Pods-KYPopupViewController_Tests-acknowledgements.markdown */,
+				56119EBE20D65B9E628B47BDBE972D8B /* Pods-KYPopupViewController_Tests-acknowledgements.plist */,
+				54B80077FE1DD70D182C8A8671E6F53B /* Pods-KYPopupViewController_Tests-dummy.m */,
+				1E0A4AE90E4E80F4DDE6826317C40882 /* Pods-KYPopupViewController_Tests-frameworks.sh */,
+				D3908E804B4D5B3C29DB903E6BFE6F53 /* Pods-KYPopupViewController_Tests-resources.sh */,
+				59D1560A2CAEBAFA98DA0C47197E8851 /* Pods-KYPopupViewController_Tests-umbrella.h */,
+				2DF38D6B27588DC0BEBE0AC6C0F84532 /* Pods-KYPopupViewController_Tests.debug.xcconfig */,
+				47DCDFB84BCCF4C72DAE82848655B8A4 /* Pods-KYPopupViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-KYPopupViewController_Tests";
+			path = "Target Support Files/Pods-KYPopupViewController_Tests";
+			sourceTree = "<group>";
+		};
+		569086EC2E561800DE017495598D25DE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE71CAD1E800C925C884ED329917E9BD /* Pods-KYPopupViewController_Example */,
+				289447352D943DE197F2BE0BBD33DDEE /* Pods-KYPopupViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6BAC63108122753A684332E05EDD14DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48326DB28028019CB3E1EBBA04CFFE97 /* KYPopupViewController.framework */,
+				AF9F2007A0D3B7051C2115AA692D6163 /* Pods_KYPopupViewController_Example.framework */,
+				2E438167F7FF453A2C03C6A721F8404E /* Pods_KYPopupViewController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				056607AF38C64E9071B22DF0CE6D8946 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6BAC63108122753A684332E05EDD14DC /* Products */,
+				569086EC2E561800DE017495598D25DE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE71CAD1E800C925C884ED329917E9BD /* Pods-KYPopupViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1F4905FBB93FBA077DBC730E6E0570A6 /* Info.plist */,
+				5C19C157958F70282BD53BE004E6F14F /* Pods-KYPopupViewController_Example.modulemap */,
+				C02FF18097CA0AFB2113E14C94FF6ACD /* Pods-KYPopupViewController_Example-acknowledgements.markdown */,
+				D3C87D89147A7B556C62D452E589A499 /* Pods-KYPopupViewController_Example-acknowledgements.plist */,
+				296ACE86CD91E7A820F565EF478F4E01 /* Pods-KYPopupViewController_Example-dummy.m */,
+				2239E37C6C7A201DDDB7608C478C3DB1 /* Pods-KYPopupViewController_Example-frameworks.sh */,
+				A747887201F06E1F26C6215FFCBFF0FD /* Pods-KYPopupViewController_Example-resources.sh */,
+				7C2BCE869BB791FFE81D4740773F38E8 /* Pods-KYPopupViewController_Example-umbrella.h */,
+				24284A996FE46F6BC7CC5BCA5836C9C9 /* Pods-KYPopupViewController_Example.debug.xcconfig */,
+				1D5F928507184436C3123CA3BBB305AC /* Pods-KYPopupViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-KYPopupViewController_Example";
+			path = "Target Support Files/Pods-KYPopupViewController_Example";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E737BF7B721405267CCBD3654A6DA8DB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AD27C6C609DD34A6E81EC1B14C3ADBF /* Info.plist */,
+				7FA782CB7B8CC2432E384A43204187D5 /* KYPopupViewController.modulemap */,
+				4FA3BBB9EF944F84970C24353CE00D6E /* KYPopupViewController.xcconfig */,
+				8278F97A2F53EDDAE5D8537E8158F040 /* KYPopupViewController-dummy.m */,
+				D4D03575003A36B96342DC84D813C9F4 /* KYPopupViewController-prefix.pch */,
+				9032A638EC4F945060825CC17D1117DB /* KYPopupViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KYPopupViewController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BA7E44B281849626836D4DA8DD24F5DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCE0B697AE37DBE4B825AC43390DD09 /* KYPopupViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE92B4887252ECAF8E4C6B89488D7A96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB94FF5601C76321F56DB62E90B4D01 /* Pods-KYPopupViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B4883CBB3382377AEAE74DF3EA6557 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778B9FCD445FB21843332D28EF178047 /* Pods-KYPopupViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		716A0236E2AECB3EEB214A314DF9EDF2 /* Pods-KYPopupViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5B8D7C1EEDA57F5B623F4207F519F64 /* Build configuration list for PBXNativeTarget "Pods-KYPopupViewController_Tests" */;
+			buildPhases = (
+				06F24BC1601BBDDF3B951606E9A2C8FB /* Sources */,
+				2BA270230B6D0A9E602EFB60D14F1C5F /* Frameworks */,
+				E6B4883CBB3382377AEAE74DF3EA6557 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KYPopupViewController_Tests";
+			productName = "Pods-KYPopupViewController_Tests";
+			productReference = 2E438167F7FF453A2C03C6A721F8404E /* Pods_KYPopupViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A4F006AD5BABFD96037849AADEF45FC /* KYPopupViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF6FEB6B6972E34B088362E727359F8E /* Build configuration list for PBXNativeTarget "KYPopupViewController" */;
+			buildPhases = (
+				DA53D5C37E1104194501B1725AB1457A /* Sources */,
+				E83BFB67CFF020B16EAF1E296E6186E6 /* Frameworks */,
+				BA7E44B281849626836D4DA8DD24F5DB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYPopupViewController;
+			productName = KYPopupViewController;
+			productReference = 48326DB28028019CB3E1EBBA04CFFE97 /* KYPopupViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D193E2D27F1CCC67D8F3CA3CB67C2159 /* Pods-KYPopupViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6D4B4605C6268319F4B3FDD9D8EA58 /* Build configuration list for PBXNativeTarget "Pods-KYPopupViewController_Example" */;
+			buildPhases = (
+				397118722ECFCEC7FD5A08FC432DC50B /* Sources */,
+				D19FA9B982F083B2AA905F8ADB4A6460 /* Frameworks */,
+				BE92B4887252ECAF8E4C6B89488D7A96 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11BB5D8E70D26D0FA129E9A0D503F71E /* PBXTargetDependency */,
+			);
+			name = "Pods-KYPopupViewController_Example";
+			productName = "Pods-KYPopupViewController_Example";
+			productReference = AF9F2007A0D3B7051C2115AA692D6163 /* Pods_KYPopupViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6BAC63108122753A684332E05EDD14DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A4F006AD5BABFD96037849AADEF45FC /* KYPopupViewController */,
+				D193E2D27F1CCC67D8F3CA3CB67C2159 /* Pods-KYPopupViewController_Example */,
+				716A0236E2AECB3EEB214A314DF9EDF2 /* Pods-KYPopupViewController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06F24BC1601BBDDF3B951606E9A2C8FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6184895DE20F0DA990FB217C0D05E95 /* Pods-KYPopupViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397118722ECFCEC7FD5A08FC432DC50B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0180FABF9A9C25D8D6B768DBDB032085 /* Pods-KYPopupViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA53D5C37E1104194501B1725AB1457A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D9A20100CEEA35FD5A66926AC077B9A /* KYAlertContentView.swift in Sources */,
+				FDA1EF63BBD8B75EC906313DB38CCC6B /* KYAlertViewController.swift in Sources */,
+				4CDC4DEF57B1A7947B2BB9063039FF1C /* KYBaseContentView.swift in Sources */,
+				4739E4DDA756FE646A7CF29AAA7F6BD1 /* KYPopupButton.swift in Sources */,
+				5809E6615574882BDDF31C9A9F9A79E7 /* KYPopupContainerView.swift in Sources */,
+				EFEA2CB0EF686785EEE1D0A0E4B4B1DD /* KYPopupInteractiveTransition.swift in Sources */,
+				FC6576120B907D68CCA04201F399587F /* KYPopupPresentationManager.swift in Sources */,
+				196897E2C00A72E50DA9535E1523CB3E /* KYPopupTransitionAnimator.swift in Sources */,
+				18F9EEA41F56B13700F71F16 /* KYPopupOverlayView.swift in Sources */,
+				D946FD004E2594D04F376A578E3CB6D2 /* KYPopupTransitionAnimators.swift in Sources */,
+				172B4C64848FA2811B7B93A79005D224 /* KYPopupUtil.swift in Sources */,
+				18F9EEA21F56AB2D00F71F16 /* KYPopupPresentationController.swift in Sources */,
+				D76FBD4338DA81A8E730FF4725D1A86B /* KYPopupViewController-dummy.m in Sources */,
+				BED034B21DBB2320BDE417FB4C5CF10C /* KYPopupViewController.swift in Sources */,
+				8260332736DDD95C7F08A59E2D8AFFCE /* UIView+KYPopup.swift in Sources */,
+				77C44F9C3CD4E4AA56C88F7B57847E75 /* UIWindow+KYPopup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11BB5D8E70D26D0FA129E9A0D503F71E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KYPopupViewController;
+			target = 9A4F006AD5BABFD96037849AADEF45FC /* KYPopupViewController */;
+			targetProxy = 563D04FEF661550C970BFB7DB7AA56AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3BD39FAE17FE23ECF4D2925833381727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47DCDFB84BCCF4C72DAE82848655B8A4 /* Pods-KYPopupViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KYPopupViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KYPopupViewController_Tests/Pods-KYPopupViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KYPopupViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44D1B5F160C2572AC6A1F7D82F5074D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA3BBB9EF944F84970C24353CE00D6E /* KYPopupViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KYPopupViewController/KYPopupViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYPopupViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KYPopupViewController/KYPopupViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KYPopupViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		897F51CD2B20B79A168FF370AD454623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D5F928507184436C3123CA3BBB305AC /* Pods-KYPopupViewController_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KYPopupViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KYPopupViewController_Example/Pods-KYPopupViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KYPopupViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B801A5BBE6680CEB3A1FD552929F2193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24284A996FE46F6BC7CC5BCA5836C9C9 /* Pods-KYPopupViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KYPopupViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KYPopupViewController_Example/Pods-KYPopupViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KYPopupViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CEB01764497265A4C9D02386E6870B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA3BBB9EF944F84970C24353CE00D6E /* KYPopupViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KYPopupViewController/KYPopupViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYPopupViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KYPopupViewController/KYPopupViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KYPopupViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EFD3757018A050882D522E81D45E88EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DF38D6B27588DC0BEBE0AC6C0F84532 /* Pods-KYPopupViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KYPopupViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KYPopupViewController_Tests/Pods-KYPopupViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KYPopupViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6D4B4605C6268319F4B3FDD9D8EA58 /* Build configuration list for PBXNativeTarget "Pods-KYPopupViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B801A5BBE6680CEB3A1FD552929F2193 /* Debug */,
+				897F51CD2B20B79A168FF370AD454623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5B8D7C1EEDA57F5B623F4207F519F64 /* Build configuration list for PBXNativeTarget "Pods-KYPopupViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD3757018A050882D522E81D45E88EB /* Debug */,
+				3BD39FAE17FE23ECF4D2925833381727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF6FEB6B6972E34B088362E727359F8E /* Build configuration list for PBXNativeTarget "KYPopupViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D1B5F160C2572AC6A1F7D82F5074D5 /* Debug */,
+				CEB01764497265A4C9D02386E6870B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

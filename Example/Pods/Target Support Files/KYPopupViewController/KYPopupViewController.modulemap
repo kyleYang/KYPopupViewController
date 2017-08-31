@@ -1,0 +1,6 @@
+framework module KYPopupViewController {
+  umbrella header "KYPopupViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

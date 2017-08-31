@@ -1,0 +1,16 @@
+PODS:
+  - KYPopupViewController (0.1.0)
+
+DEPENDENCIES:
+  - KYPopupViewController (from `../`)
+
+EXTERNAL SOURCES:
+  KYPopupViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KYPopupViewController: aa49e32842dc0f9eb5cc2e01de754e027f4ad0f5
+
+PODFILE CHECKSUM: 93e5879418bbb8a50ffdb6348505b5a798539be1
+
+COCOAPODS: 1.3.1
